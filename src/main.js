@@ -1,11 +1,15 @@
 import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
+
+import { surveyLocalization } from "survey-core";
+import "survey-core/survey.i18n";
 import { surveyPlugin } from 'survey-vue3-ui'
 import 'survey-core/defaultV2.min.css';
 
 import { createRouter,createWebHistory } from 'vue-router'
 
+surveyLocalization.defaultLocale = "es";
 //Componentes
 import Home from './components/Home.vue'
 import Survey1 from './components/surveys/Survey1.vue'
