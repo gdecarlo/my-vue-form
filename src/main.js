@@ -10,6 +10,8 @@ import { createRouter,createWebHistory } from 'vue-router'
 import Home from './components/Home.vue'
 import Survey1 from './components/surveys/Survey1.vue'
 import Survey2 from './components/surveys/Survey2.vue'
+import SurveySatisfaccion from './components/surveys/SurveySatisfaccion.vue'
+import SurveyExpresion from './components/surveys/SurveyExpresion.vue'
 
 const router = createRouter({
     history: createWebHistory(),
@@ -17,6 +19,8 @@ const router = createRouter({
         { path: '/', component: Home },
         { path: '/survey-1', component: Survey1 },
         { path: '/survey-2', component: Survey2 },
+        { path: '/survey-satisfaccion', component: SurveySatisfaccion },
+        { path: '/survey-expresion', component: SurveyExpresion },
     ],
     
 })

@@ -4,6 +4,8 @@
     <nav>
       <router-link to="/survey-1">Prueba 1</router-link>
       <router-link to="/survey-2">Prueba 2</router-link>
+      <router-link to="/survey-satisfaccion">Nivel de satisfacción</router-link>
+      <router-link to="/survey-expresion">Calcular según inputs</router-link>
     </nav>
   </header>
   <router-view></router-view>

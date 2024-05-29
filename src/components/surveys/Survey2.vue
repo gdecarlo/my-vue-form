@@ -21,7 +21,8 @@ const json = {
           "rateMin": 0,
           "rateMax": 10,
           "minRateDescription": "Very unlikely",
-          "maxRateDescription": "Very likely"
+          "maxRateDescription": "Very likely",
+          "displayMode": "buttons"
         },
         {
           "type": "comment",
